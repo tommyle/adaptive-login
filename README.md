@@ -1,16 +1,8 @@
-# login
+# Adaptive Flutter Login
 
-A new Flutter project.
+An adaptive login form built with Flutter
 
-## Getting Started
+<img src="./images/screenshot.png" alt="screenshot1" width="1024"/>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Youtube
+https://www.youtube.com/channel/UCZAxPaF-1No8qKaOEBfp97w/featured
