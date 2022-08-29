@@ -107,6 +107,8 @@ class HeroImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final textTheme = Theme.of(context).textTheme;
+
     return Stack(
       children: [
         Container(
@@ -117,16 +119,15 @@ class HeroImage extends StatelessWidget {
             ),
           ),
         ),
-        const Positioned(
+        Positioned(
           bottom: 24,
           left: 24,
           child: Text(
             'Start your\njourney with us.',
             maxLines: 2,
-            style: TextStyle(
+            style: textTheme.headline4!.copyWith(
               color: Colors.white,
               fontWeight: FontWeight.bold,
-              fontSize: 32,
             ),
           ),
         ),
@@ -134,20 +135,19 @@ class HeroImage extends StatelessWidget {
           top: 24,
           left: 24,
           child: Row(
-            children: const [
-              Icon(
+            children: [
+              const Icon(
                 Icons.sunny_snowing,
                 color: Colors.white,
                 size: 30,
               ),
-              SizedBox(width: 8),
+              const SizedBox(width: 8),
               Text(
                 'Big Corp.',
                 maxLines: 2,
-                style: TextStyle(
+                style: textTheme.titleLarge!.copyWith(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
-                  fontSize: 16,
                 ),
               ),
             ],
